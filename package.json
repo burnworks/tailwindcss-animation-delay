@@ -1,5 +1,5 @@
 {
-    "name": "@burnworks/tailwindcss-animation-delay",
+    "name": "tailwindcss-animation-delay",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",

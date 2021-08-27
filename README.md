@@ -1,4 +1,4 @@
-# @burnworks/tailwindcss-animation-delay
+# tailwindcss-animation-delay
 
 Tailwind CSS plugin, add animation-delay CSS property
 
@@ -8,10 +8,10 @@ Install the plugin from npm:
 
 ```
 # Using npm
-npm install @burnworks/tailwindcss-animation-delay
+npm install tailwindcss-animation-delay
 
 # Using Yarn
-yarn add @burnworks/tailwindcss-animation-delay
+yarn add tailwindcss-animation-delay
 ```
 
 Then add the plugin to your tailwind.config.js file:
@@ -23,7 +23,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('@burnworks/tailwindcss-animation-delay'),
+    require('tailwindcss-animation-delay'),
     // ...
   ],
 }
