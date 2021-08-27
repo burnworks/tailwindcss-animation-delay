@@ -1,9 +1,19 @@
 {
     "name": "tailwindcss-animation-delay",
     "version": "1.0.0",
+    "description": "Tailwind CSS plugin, add animation-delay CSS property.",
     "main": "index.js",
     "license": "MIT",
-    "repository": "https://github.com/burnworks/tailwindcss-animation-delay",
+    "author": "burnworks",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/burnworks/tailwindcss-animation-delay"
+    },
+    "keywords": [
+        "tailwindcss",
+        "tailwindcss-plugin",
+        "animation-delay"
+    ],
     "publishConfig": {
         "access": "public"
     },
