@@ -1,6 +1,6 @@
 {
     "name": "tailwindcss-animation-delay",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Tailwind CSS plugin, add animation-delay CSS property.",
     "main": "index.js",
     "license": "MIT",
