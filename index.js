@@ -1,41 +1,45 @@
-module.exports = function ({ addUtilities }) {
-    const animationDelay = {
-        '.animation-delay-75': {
-            animationDelay: '75ms',
+const plugin = require('tailwindcss/plugin')
+
+const animationDelay = plugin(
+    function ({ addUtilities, theme, e }) {
+        const values = theme('animationDelay')
+        var utilities = Object.entries(values).map(([key, value]) => {
+            return {
+                [`.${e(`animation-delay-${key}`)}`]: { animationDelay: `${value}ms` },
+            }
+        })
+        addUtilities(utilities)
+    },
+    {
+        theme: {
+            animationDelay: {
+                75: '75',
+                100: '100',
+                150: '150',
+                200: '200',
+                300: '300',
+                400: '400',
+                500: '500',
+                600: '600',
+                700: '700',
+                800: '800',
+                900: '900',
+                1000: '1000',
+                1100: '1100',
+                1200: '1200',
+                1300: '1300',
+                1400: '1400',
+                1500: '1500',
+                2000: '2000',
+                3000: '3000',
+                4000: '4000',
+                5000: '5000',
+                6000: '6000',
+                7000: '7000',
+                8000: '8000',
+                9000: '9000',
+            },
         },
-        '.animation-delay-100': {
-            animationDelay: '100ms',
-        },
-        '.animation-delay-150': {
-            animationDelay: '150ms',
-        },
-        '.animation-delay-200': {
-            animationDelay: '200ms',
-        },
-        '.animation-delay-300': {
-            animationDelay: '300ms',
-        },
-        '.animation-delay-400': {
-            animationDelay: '400ms',
-        },
-        '.animation-delay-500': {
-            animationDelay: '500ms',
-        },
-        '.animation-delay-600': {
-            animationDelay: '600ms',
-        },
-        '.animation-delay-700': {
-            animationDelay: '700ms',
-        },
-        '.animation-delay-800': {
-            animationDelay: '800ms',
-        },
-        '.animation-delay-900': {
-            animationDelay: '900ms',
-        },
-        '.animation-delay-1000': {
-            animationDelay: '1000ms',
-        },
-    }
-    addUtilities(animationDelay)
-}
+    },
+)
+module.exports = animationDelay

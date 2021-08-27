@@ -45,3 +45,16 @@ module.exports = {
 | animation-delay-800  | animation-delay: 800ms;  |
 | animation-delay-900  | animation-delay: 900ms;  |
 | animation-delay-1000 | animation-delay: 1000ms; |
+| animation-delay-1100 | animation-delay: 1100ms; |
+| animation-delay-1200 | animation-delay: 1200ms; |
+| animation-delay-1300 | animation-delay: 1300ms; |
+| animation-delay-1400 | animation-delay: 1400ms; |
+| animation-delay-1500 | animation-delay: 1500ms; |
+| animation-delay-2000 | animation-delay: 2000ms; |
+| animation-delay-3000 | animation-delay: 3000ms; |
+| animation-delay-4000 | animation-delay: 4000ms; |
+| animation-delay-5000 | animation-delay: 5000ms; |
+| animation-delay-6000 | animation-delay: 6000ms; |
+| animation-delay-7000 | animation-delay: 7000ms; |
+| animation-delay-8000 | animation-delay: 8000ms; |
+| animation-delay-9000 | animation-delay: 9000ms; |
