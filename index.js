@@ -13,6 +13,7 @@ const animationDelay = plugin(
     {
         theme: {
             animationDelay: {
+                'none': '0s',
                 75: '75ms',
                 100: '100ms',
                 150: '150ms',

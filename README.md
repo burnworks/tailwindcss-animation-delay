@@ -31,8 +31,17 @@ module.exports = {
 
 ## Usage
 
+`animation-delay-{n}` class to specifies the amount of time to wait from applying the animation to an element before beginning to perform the animation.
+
+```
+<svg class="animate-bounce animation-delay-300 w-6 h-6 ...">
+  <!-- ... -->
+</svg>
+```
+
 | Class                | Properties               |
 | -------------------- | ------------------------ |
+| animation-delay-none | animation-delay: 0s;     |
 | animation-delay-75   | animation-delay: 75ms;   |
 | animation-delay-100  | animation-delay: 100ms;  |
 | animation-delay-150  | animation-delay: 150ms;  |
