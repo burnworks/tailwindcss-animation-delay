@@ -91,7 +91,7 @@ module.exports = {
 
 ### Extending the default theme
 
-If you’d like to preserve the default values for a theme option but also add new values, add your extensions under the` theme.extend` key in your configuration file.
+If you’d like to preserve the default values for a theme option but also add new values, add your extensions under the `theme.extend` key in your configuration file.
 
 ```js
 /** @type {import('tailwindcss').Config} */
