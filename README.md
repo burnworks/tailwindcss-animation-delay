@@ -2,6 +2,9 @@
 
 Tailwind CSS plugin, add animation-delay CSS property.
 
+> [!NOTE]
+> Version 2.0.0 now supports negative values.
+
 ## Installation
 
 Install the plugin from npm:
@@ -67,6 +70,31 @@ module.exports = {
 | animation-delay-7000 | animation-delay: 7000ms; |
 | animation-delay-8000 | animation-delay: 8000ms; |
 | animation-delay-9000 | animation-delay: 9000ms; |
+| -animation-delay-75   | animation-delay: -75ms;   |
+| -animation-delay-100  | animation-delay: -100ms;  |
+| -animation-delay-150  | animation-delay: -150ms;  |
+| -animation-delay-200  | animation-delay: -200ms;  |
+| -animation-delay-300  | animation-delay: -300ms;  |
+| -animation-delay-400  | animation-delay: -400ms;  |
+| -animation-delay-500  | animation-delay: -500ms;  |
+| -animation-delay-600  | animation-delay: -600ms;  |
+| -animation-delay-700  | animation-delay: -700ms;  |
+| -animation-delay-800  | animation-delay: -800ms;  |
+| -animation-delay-900  | animation-delay: -900ms;  |
+| -animation-delay-1000 | animation-delay: -1000ms; |
+| -animation-delay-1100 | animation-delay: -1100ms; |
+| -animation-delay-1200 | animation-delay: -1200ms; |
+| -animation-delay-1300 | animation-delay: -1300ms; |
+| -animation-delay-1400 | animation-delay: -1400ms; |
+| -animation-delay-1500 | animation-delay: -1500ms; |
+| -animation-delay-2000 | animation-delay: -2000ms; |
+| -animation-delay-3000 | animation-delay: -3000ms; |
+| -animation-delay-4000 | animation-delay: -4000ms; |
+| -animation-delay-5000 | animation-delay: -5000ms; |
+| -animation-delay-6000 | animation-delay: -6000ms; |
+| -animation-delay-7000 | animation-delay: -7000ms; |
+| -animation-delay-8000 | animation-delay: -8000ms; |
+| -animation-delay-9000 | animation-delay: -9000ms; |
 
 ## Configuration
 
@@ -81,10 +109,12 @@ module.exports = {
       200: "200ms",
       300: "300ms",
       400: "400ms",
+      "-3000": "-3000ms",
+      "-7000": "-7000ms",
     },
   },
   variants: {
-    animationDelay: ["responsive", "hover"],
+    animationDelay: ["focus"],
   },
 }
 ```
@@ -103,6 +133,8 @@ module.exports = {
         250: "250ms",
         350: "350ms",
         450: "450ms",
+        "-3500": "-3500ms",
+        "-7500": "-7500ms",
       },
     },
   },
