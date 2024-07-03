@@ -42,6 +42,17 @@ module.exports = {
 </svg>
 ```
 
+### Negative values
+
+To use a negative animation-delay value, prefix the class name with a dash to convert it to a negative value.
+
+```html
+<svg class="animate-bounce -animation-delay-600 w-6 h-6 ...">
+  <!-- ... -->
+</svg>
+```
+
+
 | Class                | Properties               |
 | -------------------- | ------------------------ |
 | animation-delay-none | animation-delay: 0s;     |
