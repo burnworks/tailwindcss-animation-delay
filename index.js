@@ -1,6 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 
-const animationDelay = plugin(function ({ matchUtilities, theme, e }) {
+const animationDelay = plugin(function ({ matchUtilities, theme }) {
     const defaultValues = {
         'none': '0s',
         75: '75ms',
